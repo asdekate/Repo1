@@ -9,4 +9,4 @@ Echo True # ( this command will run only if the condition is true)
 Else
 Echo false # ( this command will run only if the condition is false)
 Fi
-Batch scripting explanation Violet
+Batch scripting explanation VioletA
