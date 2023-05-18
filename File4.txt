@@ -1,0 +1,11 @@
+./script.sh
+Ne not equal to. If the statement below is true or false what do you want to happen
+Bash shell
+Elif means else if
+If 
+[4 -ne 2]
+Then
+Echo True # ( this command will run only if the condition is true)
+Else
+Echo false # ( this command will run only if the condition is false)
+Fi
