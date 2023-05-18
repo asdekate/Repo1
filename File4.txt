@@ -1,3 +1,4 @@
+
 ./script.sh
 Ne not equal to. If the statement below is true or false what do you want to happen
 Bash shell
@@ -9,4 +10,5 @@ Echo True # ( this command will run only if the condition is true)
 Else
 Echo false # ( this command will run only if the condition is false)
 Fi
+
 Batch scripting explanation VioletA
