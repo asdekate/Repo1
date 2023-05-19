@@ -1,5 +1,24 @@
-This is my File 1.
-There is change in File 2.01
-Makin change 2
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "type": "string",
+      "metadata": {
+        "description": "The name of the storage account."
+      }
+    },
+    "location": {
+      "type": "string",
+      "metadata": {
+        "description": "The location for the storage account."
+      },
+      "defaultValue": "eastus"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2019-06-01",
+      "name": "[parameters('storageAccountName')]",
 
-Matthew Change
